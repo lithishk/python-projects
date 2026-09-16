@@ -72,10 +72,10 @@ def game_process():
     if user_choice == computer_choice:
         print("It's a draw!")
     elif (user_choice == 0 and computer_choice == 2) or (user_choice == 1 and computer_choice == 0) or (user_choice == 2 and computer_choice == 1):
-        print("You win! 🎉")
+        print("You win! ")
         user_points += 1
     else:
-        print("You lose! 😭")
+        print("You lose! ")
         computer_points += 1
 
     print(f"\nScore → {name}: {user_points} | Computer: {computer_points}")
@@ -92,11 +92,11 @@ for i in range(num_rounds):
 print(f"\nFinal Score → {name}: {user_points} | Computer: {computer_points}")
 
 if user_points > computer_points:
-    print(f"Congratulations! {name} you won the game! 🏆")
+    print(f"Congratulations! {name} you won the game! ")
 elif user_points < computer_points:
-    print(f"Computer won the game! Better luck next time {name}! 💪")
+    print(f"Computer won the game! Better luck next time {name}! ")
 else:
-    print("Overall it's a draw! 🤝")
+    print("Overall it's a draw! ")
 
 
 
