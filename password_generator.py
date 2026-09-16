@@ -30,7 +30,7 @@ while continue_generation=="yes":
             symbol = int(input("Enter how many symbols do you want: "))
             number = int(input("Enter how many numbers do you want: "))
             if letter==0 and number==0 and symbol==0:
-                print("🙌🏻 At least one value must be greater than 0!")
+                print("At least one value must be greater than 0!")
                 continue
             if letter<0 or number<0 or symbol<0:
                 print("Please enter a positive number!")
