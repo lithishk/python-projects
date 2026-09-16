@@ -63,7 +63,6 @@ while continue_generation=="yes":
             continue
         break
 if continue_generation=="no":
-    os.system("cls")
     print(f"Password history: ")
     i = 0
     for password in passwords:
