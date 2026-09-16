@@ -86,8 +86,8 @@ print(f"Wrong guesses: {wrong_guessed}")
 
 
 if word==chosen_word:
-    print("You win!🥳🎉")
+    print("You win!")
     print(f"You guessed the word: {chosen_word}")
     print("Your remaining lives: ",lives)
 else:
-    print("You lose!😭")
+    print("You lose!")
